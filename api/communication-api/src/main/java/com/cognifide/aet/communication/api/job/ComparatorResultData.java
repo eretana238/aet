@@ -28,11 +28,11 @@ public class ComparatorResultData implements Serializable {
 
   private static final long serialVersionUID = -1152354275730001870L;
 
-  private JobStatus status;
+  private final JobStatus status;
 
-  private ProcessingError processingError;
+  private final ProcessingError processingError;
 
-  private Comparator comparisonResult;
+  private final Comparator comparisonResult;
 
   private final String testName;
 

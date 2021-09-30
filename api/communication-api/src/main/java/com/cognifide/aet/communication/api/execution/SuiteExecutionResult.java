@@ -18,7 +18,7 @@ package com.cognifide.aet.communication.api.execution;
 /**
  * The result of starting the test suite execution.
  */
-public class SuiteExecutionResult {
+public final class SuiteExecutionResult {
 
   private String correlationId;
 

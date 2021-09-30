@@ -19,7 +19,7 @@ public class CommunicationSettings {
 
   private final String reportDomain;
 
-  public CommunicationSettings(String reportDomain) {
+  public CommunicationSettings(final String reportDomain) {
     this.reportDomain = reportDomain;
   }
 
